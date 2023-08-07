@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Noor Baytee binti Mohd Ali</title>
+  <title>Baytee Kamal - Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     body {
-      background-color: #f5f5f5;
+      background-color: #f0f0f0;
       font-family: Arial, sans-serif;
       color: #333;
     }
@@ -15,122 +18,98 @@
       background-color: #007bff;
       text-align: center;
       padding: 20px;
+      border-radius: 50%;
     }
 
-    .profile-img {
+    .profile-pic {
       width: 120px;
       height: 150px;
       border-radius: 50%;
-      object-fit: cover;
     }
 
-    .category {
+    .card {
       background-color: #fff;
       padding: 20px;
-      margin: 10px;
-      border-radius: 5px;
+      border-radius: 10px;
+      margin-bottom: 20px;
     }
 
     .footer {
       text-align: center;
-      background-color: #ccc;
       padding: 10px;
-    }
-
-    .footer p {
-      margin: 0;
+      background-color: #333;
+      color: #fff;
+      font-size: 14px;
     }
 
     .footer a {
-      color: #333;
-      text-decoration: none;
-      margin: 0 10px;
+      color: #fff;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
+
 <body>
-  <div class="header">
-    <img src="me.jpg" alt="Profile Picture" class="profile-img">
-    <h1>Noor Baytee binti Mohd Ali</h1>
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="category">
-          <h2>Occupation</h2>
-          <p>Lecturer</p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="category">
-          <h2>Institution</h2>
-          <p>Kolej Komuniti Muar Johor</p>
-        </div>
-      </div>
+  <div class="container mt-5">
+    <div class="header mx-auto mb-3">
+      <img class="profile-pic" src="me.jpg" alt="Baytee Kamal">
     </div>
 
-    <div class="row">
-      <div class="col-md-6">
-        <div class="category">
-          <h2>Qualification</h2>
-          <p>Master Of Public Administration</p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="category">
-          <h2>Subjects Taught</h2>
-          <p>Terapi Kecantikan dan Spa</p>
-        </div>
-      </div>
+    <div class="card">
+      <h2 class="text-center">Name: Baytee Kamal</h2>
+      <p class="text-center">Occupation: Lecturer</p>
+      <p class="text-center">Institution: Kolej komuniti Muar, Johor</p>
+      <p class="text-center">Qualification: Master of Public Management</p>
+      <p class="text-center">Subjects taught: Terapi kecantikan dan Spa</p>
+      <p class="text-center">Skills: Beautician Aesthetician</p>
+      <p class="text-center">My contact: bayteeali@gmail.com</p>
     </div>
 
-    <div class="row">
-      <div class="col-md-6">
-        <div class="category">
-          <h2>Skills</h2>
-          <ul>
-            <li>HTML</li>
-            <li>JavaScript</li>
-            <li>PHP</li>
-            <li>Python</li>
-            <li>Laravel</li>
-            <li>Node.js</li>
-            <li>React.js</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="category">
-          <h2>Contact</h2>
-          <p>Email: bayteeali@gmail.com</p>
-        </div>
-      </div>
+    <div class="card">
+      <h3 class="text-center">About Me</h3>
+      <p class="text-center">
+        I am Baytee Kamal, a dedicated lecturer at Kolej komuniti Muar, Johor. With a Master's degree in Public Management,
+        I specialize in teaching Terapi kecantikan dan Spa. I am a skilled Beautician Aesthetician, passionate about
+        beauty therapy and aesthetics.
+      </p>
     </div>
 
-    <div class="row">
-      <div class="col-md-12">
-        <div class="category">
-          <h2>About Me</h2>
-          <p>
-            I am a Lecturer at Kolej Komuniti Muar Johor with a Master's degree in Public Administration.
-            I specialize in teaching Terapi Kecantikan dan Spa and have a wide range of programming skills,
-            including HTML, JavaScript, PHP, Python, Laravel, Node.js, and React.js.
-          </p>
-        </div>
+    <div class="card">
+      <h3 class="text-center">Social Media</h3>
+      <div class="d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/ariffinmzin/" target="_blank">
+          <img src="https://www.cdnlogo.com/logos/l/66/linkedin-icon.svg" alt="LinkedIn" style="width: 30px; height: 30px; margin: 0 10px;">
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="https://www.cdnlogo.com/logos/f/74/facebook.svg" alt="Facebook" style="width: 30px; height: 30px; margin: 0 10px;">
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <img src="https://www.cdnlogo.com/logos/t/45/twitter.svg" alt="Twitter" style="width: 30px; height: 30px; margin: 0 10px;">
+        </a>
+        <a href="https://instagram.com/" target="_blank">
+          <img src="https://www.cdnlogo.com/logos/i/92/instagram.svg" alt="Instagram" style="width: 30px; height: 30px; margin: 0 10px;">
+        </a>
+        <a href="https://tiktok.com/" target="_blank">
+          <img src="https://www.cdnlogo.com/logos/t/60/tiktok.svg" alt="TikTok" style="width: 30px; height: 30px; margin: 0 10px;">
+        </a>
       </div>
     </div>
   </div>
+
+  <!-- Bootstrap JS (jQuery and Popper.js required for Bootstrap) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <div class="footer">
-    <p>
-      <a href="https://cdnlogo.com/logo/facebook-square-icon_429.html" target="_blank"><img src="https://www.cdnlogo.com/logos/f/74/facebook.svg" width="30" height="30" alt="Facebook"></a>
-      <a href="https://cdnlogo.com/logo/linkedin-icon_39423.html" target="_blank"><img src="https://www.cdnlogo.com/logos/l/66/linkedin-icon.svg" width="30" height="30" alt="LinkedIn"></a>
-      <a href="https://cdnlogo.com/logo/twitter_40255.html" target="_blank"><img src="https://www.cdnlogo.com/logos/t/45/twitter.svg" width="30" height="30" alt="Twitter"></a>
-      <a href="https://cdnlogo.com/logo/instagram_475.html" target="_blank"><img src="https://www.cdnlogo.com/logos/i/92/instagram.svg" width="30" height="30" alt="Instagram"></a>
-      <a href="https://cdnlogo.com/logo/tiktok_550.html" target="_blank"><img src="https://www.cdnlogo.com/logos/t/60/tiktok.svg" width="30" height="30" alt="TikTok"></a>
-    </p>
-    <p>&copy; 2023 Noor Baytee binti Mohd Ali. All rights reserved.</p>
+    &copy; 2023 Baytee Kamal. All rights reserved. | Find me on
+    <a href="https://www.linkedin.com/in/ariffinmzin/" target="_blank">LinkedIn</a>,
+    <a href="https://www.facebook.com/" target="_blank">Facebook</a>, and
+    <a href="https://twitter.com/" target="_blank">Twitter</a>.
   </div>
 </body>
+
 </html>
